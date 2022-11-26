@@ -63,3 +63,42 @@ input {
     color: #F4F2EC;
     background: #738557;
 }
+
+@media(max-width:450px) {
+    html {
+        font-size: 50%;
+    }
+    body {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        min-height: 100vh;
+    }
+    .box {
+        width: 320px;
+        height: 600px;
+    }
+    .box h2 {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    input {
+        margin-left: -35px;
+        height: 60px;
+        width: 250px;
+    }
+    #button {
+        font-size: large;
+    }
+    .btn1 {
+        padding: 35px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 70px;
+    }
+    .btn2 {
+        padding: 35px;
+        margin-bottom: -170px;
+        margin-left: -157px;
+    }
+}
